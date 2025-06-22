@@ -17,7 +17,7 @@ const Cart = () => {
   return (
     <div className="relative">
       <div
-        className={`select-none fixed z-50 top-0 right-0 h-screen bg-white w-2/3  p-5 shadow-lg ${
+        className={`select-none fixed z-50 top-0 right-0 h-screen bg-white w-2/3 md:w-1/3 p-5 shadow-lg ${
           activerCart ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-400 ease-in-out`}
       >
